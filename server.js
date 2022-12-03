@@ -13,7 +13,7 @@ import routes from "./src/routes/index.js";
 const log = logger("server");
 const app = express();
 
-app.use(epress.statitc(path.join(_dirname + '/public')))
+app.use(epress.statitc(path.join(_dirname + '/build')))
 app.enable("json spaces");
 app.enable("strict routing");
 app.use(morgan('dev'));
