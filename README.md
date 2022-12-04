@@ -1,1 +1,1 @@
-This the a sample dating app
+This a sample dating app
